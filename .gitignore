@@ -1,0 +1,24 @@
+# Ruby
+/.bundle/
+/vendor/bundle/
+/pkg/
+/tmp/
+/coverage/
+*.gem
+.rspec_status
+
+# A gem locks nothing for its consumers, so the lock file here would only ever
+# describe one developer's machine.
+Gemfile.lock
+
+# Editors
+/.idea/
+/.vscode/
+*.swp
+
+# Code Generator local tooling
+/.generator/
+
+# OS
+.DS_Store
+.ci-dependencies/
